@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Bmob.initialize(this,"7ff3b5ddaf309007e16c13b8fafc1fd1");
+        //Bmob.initialize(this,"7ff3b5ddaf309007e16c13b8fafc1fd1");
+        Bmob.initialize(this,"0acf0e0a6af176a3d7febac237423ada");
         BmobInstallation.getCurrentInstallation(this).save();
         initUI();
     }
